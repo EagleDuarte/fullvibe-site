@@ -20,7 +20,7 @@
 }
 
 body{
-	background: var(--bg-color);
+	background: rgb(58, 58, 58);
 	color: var(--text-color);
 }
 
@@ -363,16 +363,24 @@ section {
 
 .portfolio-content {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+	grid-template-columns: repeat(3, 1fr);
 	align-items: center;
-	gap: 2rem;
+	gap: 3rem;
 	margin-top: 5rem;
   }
   
+<<<<<<< HEAD
+=======
+  .row {
+	width: 100%;
+  }
+  
+>>>>>>> a41ced80dcb34810a13a7b5e97ba7017a590dbfc
   .row img {
 	height: auto;
 	width: 100%;
 	border-radius: 0.5rem;
+<<<<<<< HEAD
 	margin-bottom: 1.5rem;
   }
   
@@ -404,6 +412,16 @@ section {
   
   .row-icon i {
 	font-size: 21px;
+=======
+	margin-bottom: 2px;
+  }
+  
+  .row {
+	padding: 20px;
+	background: #12141c;
+	border-radius: 0.5rem;
+	transition: all 0.4s ease;
+>>>>>>> a41ced80dcb34810a13a7b5e97ba7017a590dbfc
   }
   
   .row:hover {
@@ -411,6 +429,7 @@ section {
 	cursor: pointer;
   }
   
+<<<<<<< HEAD
   @media screen and (max-width: 767px) {
 	.portfolio-content {
 	  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
@@ -446,6 +465,8 @@ section {
 	  font-size: 12px;
 	}
   }
+=======
+>>>>>>> a41ced80dcb34810a13a7b5e97ba7017a590dbfc
 
 .contact {
 	display: grid;
